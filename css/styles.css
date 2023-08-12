@@ -1,0 +1,206 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #434455; 
+}
+/* HEADER */
+/* HEADER */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+.logo-part {
+    color:#2e2f42;
+}
+.nav-list-link {
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+.nav-list-link:hover {
+    color: #404bbf;
+}
+.nav-list-link:focus {
+    color: #404bbf ;
+}
+
+.nav-list-item {
+    list-style-type: none;
+}
+.contacts {
+    font-style: normal
+}
+.contacts-list-link {
+    color: #434455;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none; 
+}
+.contacts-list-link:hover {
+    color: #404bbf;
+}
+.contacts-list-link:focus {
+    color: #404bbf;
+}
+.contacts-list-item {
+    list-style-type: none;
+}
+/* ORDER */
+/* ORDER */
+.order {
+    background-color: #2E2F42;
+}
+.main-title {
+    color:#FFF;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+.order-button {
+    color: #FFF;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    background-color: #4D5AE5;
+    cursor: pointer
+}
+.order-button:hover {
+    background-color: #404BBF;
+}
+.order-button:focus {
+    background-color: #404BBF;
+}
+/* ABOUT US */
+/* ABOUT US */
+.about-list {
+    list-style-type: none;
+}
+.about-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.about-text {
+    color: #434455;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+/* OUR TEAM */
+/* OUR TEAM */
+.team {
+    background-color: #F4F4FD;
+}
+.team-title {
+    color:  #2E2F42;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center
+}
+.team-list {
+    list-style-type: none;
+}
+.team-list-item {
+    background-color: #fff;
+}
+.team-list-title {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team-list-text {
+    color: #434455;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* OUR PORTFOLIO */
+/* OUR PORTFOLIO */
+.portfolio-title {
+    color:  #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.portfolio-list {
+    list-style-type: none;
+}
+.portfolio-list-title {
+    color:  #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
+}
+.portfolio-list-text {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
+/* FOOTER */
+/* FOOTER */
+.page-footer {
+    background-color: #2E2F42;
+}
+.logo-end {
+    color:  #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.page-footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
