@@ -2,8 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
-    color: #434455; 
-
+    color: #434455;
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;
@@ -19,6 +18,8 @@ img {
 }
 .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .section {
     padding: 120px 0;
@@ -146,6 +147,18 @@ img {
 }
 /* ABOUT US */
 /* ABOUT US */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .about-list {
     list-style-type: none;
 }
