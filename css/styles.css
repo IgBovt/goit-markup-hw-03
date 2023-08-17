@@ -29,8 +29,10 @@ img {
 }
 /* HEADER */
 /* HEADER */
-.page-header .container {
+.page-header {
     border-bottom: 1px solid #E7E9FC;
+}
+.page-header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,6 +43,7 @@ img {
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -52,7 +55,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-right: 56px;
+    margin-right: 76px;
 }
 .logo-part {
     color:#2e2f42;
@@ -68,6 +71,7 @@ img {
     line-height: 24px;
     letter-spacing: 0.32px;
     text-decoration: none;
+    padding: 24px 0;
 }
 .nav-list-link:hover {
     color: #404bbf;
@@ -116,6 +120,8 @@ img {
 /* HERO */
 .order {
     background-color: #2E2F42;
+    display: flex;
+    justify-content: center;
 }
 .main-title {
     display: block;
@@ -126,9 +132,10 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: auto;
+    padding-right: auto;
     margin-bottom: 48px;
+    max-width: 496px; 
 }
 .order-button {
     display: block;
@@ -141,11 +148,12 @@ img {
     cursor: pointer;
     width: 196px;
     height: 56px;
-    border: 1px solid #4D5AE5;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-right: auto;
     margin-left: auto;
+    border: none;
+    min-width: 169px
 }
 .order-button:hover {
     background-color: #404BBF;
