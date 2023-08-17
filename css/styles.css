@@ -160,16 +160,16 @@ img {
 /* ABOUT US */
 /* ABOUT US */
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .about-list {
     list-style-type: none;
@@ -204,6 +204,8 @@ img {
 /* OUR TEAM */
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    display: block;
 }
 .team-title {
     color:  #2E2F42;
@@ -218,9 +220,19 @@ img {
 }
 .team-list {
     list-style-type: none;
+    display: flex;
+    margin-top: 72px;
+    padding-bottom: 120px;
 }
 .team-list-item {
     background-color: #fff;
+    margin-right: 24px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.team-list-item:last-child {
+    margin-right: 0;
 }
 .team-list-title {
     color: #2E2F42;
@@ -232,6 +244,12 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+.team-list-img {
+    margin-bottom: 32px;
+}
+.team-list-title {
+    margin-bottom: 8px;
+}
 .team-list-text {
     color: #434455;
     text-align: center;
@@ -241,6 +259,7 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
 }
 /* OUR PORTFOLIO */
 /* OUR PORTFOLIO */
